@@ -22,6 +22,7 @@
 		5031201D18D94874003B55AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50311FFC18D94874003B55AF /* UIKit.framework */; };
 		5031202518D94874003B55AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5031202318D94874003B55AF /* InfoPlist.strings */; };
 		5031202718D94874003B55AF /* MRAAlertViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5031202618D94874003B55AF /* MRAAlertViewExampleTests.m */; };
+		5031203718D9522F003B55AF /* MRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5031203618D9522F003B55AF /* MRAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		5031202218D94874003B55AF /* MRAAlertViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRAAlertViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		5031202418D94874003B55AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5031202618D94874003B55AF /* MRAAlertViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAAlertViewExampleTests.m; sourceTree = "<group>"; };
+		5031203518D9522F003B55AF /* MRAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAlertView.h; sourceTree = "<group>"; };
+		5031203618D9522F003B55AF /* MRAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		50311FEC18D94874003B55AF = {
 			isa = PBXGroup;
 			children = (
+				5031203418D951D1003B55AF /* MRAlertView */,
 				50311FFE18D94874003B55AF /* MRAAlertViewExample */,
 				5031202018D94874003B55AF /* MRAAlertViewExampleTests */,
 				50311FF718D94874003B55AF /* Frameworks */,
@@ -153,6 +157,15 @@
 				5031202318D94874003B55AF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5031203418D951D1003B55AF /* MRAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5031203518D9522F003B55AF /* MRAlertView.h */,
+				5031203618D9522F003B55AF /* MRAlertView.m */,
+			);
+			path = MRAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +268,7 @@
 			files = (
 				5031201218D94874003B55AF /* ViewController.m in Sources */,
 				5031200918D94874003B55AF /* AppDelegate.m in Sources */,
+				5031203718D9522F003B55AF /* MRAlertView.m in Sources */,
 				5031200518D94874003B55AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

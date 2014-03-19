@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MRAlertView.h"
+
 @interface ViewController : UIViewController
 
 @end
